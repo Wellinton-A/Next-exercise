@@ -4,7 +4,6 @@ const Product = (props) => {
 }
 
 export const getServerSideProps = async (context) => {
-  const { params } = context
   const id = params.pid
 
   return {
