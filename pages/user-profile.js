@@ -6,7 +6,7 @@ const UserProfile = (props) => {
 export const getServerSideProps = async (context) => {
   return {
     props: {
-      username: 'Max'
+      username: 'Maximum'
     }
   }
 }
